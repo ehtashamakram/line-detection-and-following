@@ -1,0 +1,7 @@
+
+<launch>
+	<node pkg="turtlebot3_gazebo" type="follower.py" name="line_follower" output="screen">
+		<param name="initial_pose" value="100" />	
+	</node>
+
+</launch>

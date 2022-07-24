@@ -1,0 +1,55 @@
+<?xml version="1.0" ?>
+<sdf version="1.5">
+  <world name="default">
+    <!-- A global light source -->
+    <include>
+      <name>sun1</name>
+      <uri>model://sun</uri>
+    </include>
+
+    <!-- A ground plane -->
+    <include>
+      <uri>model://ground_plane</uri>
+    </include>
+
+    <include>
+      <name>sandbox</name>
+        <uri>model://sandbox</uri>
+       <pose>0 0 0 0 0 0</pose>
+    </include>
+
+    <include>
+      <name>line_1</name>
+        <uri>model://yellowline</uri>
+       <pose>-0.2 0.2 0.01 0 0 0</pose>
+    </include>
+    <include>
+      <name>line_2</name>
+        <uri>model://yellowline</uri>
+       <pose>0.2 -0.2 0.01 0 0 0</pose>
+    </include>
+    <include>
+      <name>line_3</name>
+        <uri>model://yellowline_small</uri>
+       <pose>0.7 0 0.01 0 0 1.5708</pose>
+    </include>
+
+    <include>
+      <name>line_4</name>
+        <uri>model://yellowline_small</uri>
+       <pose>-0.7 0 0.01 0 0 1.5708</pose>
+    </include>-->
+    <include>
+      <name>cone_1</name>
+        <uri>model://construction_cone_small</uri>
+       <pose>0.5 0.2 0 0 0 0</pose>
+    </include>
+    <include>
+      <name>cone_2</name>
+        <uri>model://construction_cone_small</uri>
+       <pose>-0.5 -0.2 0 0 0 0</pose>
+    </include>
+
+
+  </world>
+</sdf>
